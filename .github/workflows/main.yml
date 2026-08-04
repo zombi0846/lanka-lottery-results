@@ -2,13 +2,13 @@ name: Auto Update Lottery Results
 
 on:
   schedule:
-    # දිනපතා ලංකාවේ වේලාවෙන් රෑ 9:00 ට (UTC 15:30) run වේ
+    # දිනපතා UTC 15:30 ට (ලංකාවේ වේලාවෙන් රෑ 9:00 ට) run වේ
     - cron: '30 15 * * *'
-  workflow_dispatch: # Manual run කිරීමට පහසුකම
+  workflow_dispatch:
 
 jobs:
   update-results:
-    runs-runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
