@@ -28,9 +28,10 @@ jobs:
       run: python scraper.py
 
     - name: FTP Deploy to InfinityFree
-      uses: actionshub/github-action-ftp@v2.1
+      uses: SamKirland/FTP-Deploy-Action@v4.3.5
       with:
-        host: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USERNAME }}
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        remoteDir: '/htdocs/'
+        local-dir: ./
+        server-dir: /htdocs/
