@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ලංකා ලොතරැයි දිනුම් වාර | Sri Lanka Lottery Results</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-100 min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white py-4 shadow-xl sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center max-w-3xl">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl">🇱🇰</span>
+                <h1 class="text-xl font-bold tracking-wide">ලංකා Results</h1>
+            </div>
+            <span class="text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-3 py-1 rounded-full font-medium animate-pulse flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Live Updates
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container mx-auto px-4 py-6 max-w-3xl">
+
+        <!-- Category Filters -->
+        <div class="flex space-x-2 overflow-x-auto pb-4 mb-6 scrollbar-none">
+            <button onclick="filterResults('all')" class="filter-btn bg-indigo-900 text-white px-5 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap shadow-md transition-all">සියලුම</button>
+            <button onclick="filterResults('mahajana')" class="filter-btn bg-white text-slate-700 hover:bg-slate-50 px-5 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap shadow-sm border border-slate-200 transition-all">මහජන සම්පත</button>
+            <button onclick="filterResults('shanida')" class="filter-btn bg-white text-slate-700 hover:bg-slate-50 px-5 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap shadow-sm border border-slate-200 transition-all">ශනිදා වාසනාව</button>
+            <button onclick="filterResults('govisetha')" class="filter-btn bg-white text-slate-700 hover:bg-slate-50 px-5 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap shadow-sm border border-slate-200 transition-all">ගොවිසෙත</button>
+        </div>
+
+        <!-- Section Title -->
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-lg font-bold text-slate-800">අද දිනුම් වාර (Today's Results)</h2>
+            <span class="text-xs text-slate-500 font-medium">2026-08-04</span>
+        </div>
+
+        <!-- Dynamic Results List (will be populated by script.js) -->
+        <div id="results-container" class="space-y-4">
+            <p class="text-center text-gray-500 py-8">දත්ත Load වෙමින් පවතී...</p>
+        </div>
+
+    </main>
+
+    <!-- Connect JS file -->
+    <script src="script.js"></script>
+    <script>
+        function filterResults(category) {
+            const cards = document.querySelectorAll('.result-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.classList.contains(category)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

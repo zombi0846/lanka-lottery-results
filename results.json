@@ -1,0 +1,32 @@
+[
+  {
+    "name": "මහජන සම්පත",
+    "type": "mahajana",
+    "board": "National Lotteries Board",
+    "drawNo": "3042",
+    "date": "2026-08-04",
+    "letter": "B",
+    "numbers": ["05", "18", "29", "42"],
+    "bgGradient": "from-blue-900 to-indigo-800"
+  },
+  {
+    "name": "ශනිදා වාසනාව",
+    "type": "shanida",
+    "board": "Development Lotteries Board",
+    "drawNo": "1850",
+    "date": "2026-08-04",
+    "letter": "K",
+    "numbers": ["12", "24", "31", "55"],
+    "bgGradient": "from-purple-900 to-indigo-900"
+  },
+  {
+    "name": "ගොවිසෙත",
+    "type": "govisetha",
+    "board": "National Lotteries Board",
+    "drawNo": "2210",
+    "date": "2026-08-04",
+    "letter": "H",
+    "numbers": ["02", "14", "20", "39"],
+    "bgGradient": "from-rose-900 to-pink-800"
+  }
+]
