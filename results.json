@@ -2,31 +2,166 @@
   {
     "name": "මහජන සම්පත",
     "type": "mahajana",
-    "board": "National Lotteries Board",
-    "drawNo": "N/A",
+    "board": "NLB",
+    "drawNo": "3041",
     "date": "2026-08-04",
     "letter": "A",
     "numbers": [
-      "00",
-      "00",
-      "00",
-      "00"
+      "12",
+      "25",
+      "38",
+      "44"
     ],
     "bgGradient": "from-blue-900 to-indigo-800"
   },
   {
-    "name": "ශනිදා වාසනාව",
-    "type": "shanida",
-    "board": "Development Lotteries Board",
-    "drawNo": "1850",
+    "name": "ගොවිසෙත",
+    "type": "govisetha",
+    "board": "NLB",
+    "drawNo": "3041",
     "date": "2026-08-04",
-    "letter": "K",
+    "letter": "A",
     "numbers": [
       "12",
-      "24",
-      "31",
-      "55"
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-rose-900 to-pink-800"
+  },
+  {
+    "name": "මෙගා පවර්",
+    "type": "mega-power",
+    "board": "NLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-amber-900 to-yellow-800"
+  },
+  {
+    "name": "ධන නිධානය",
+    "type": "dhana-nidhanaya",
+    "board": "NLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-emerald-900 to-teal-800"
+  },
+  {
+    "name": "වාසානාවේ සැඳෑව",
+    "type": "wasana-sada",
+    "board": "NLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-purple-900 to-violet-800"
+  },
+  {
+    "name": "සුපිරි වාසනා",
+    "type": "supiri-wasana",
+    "board": "NLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-cyan-900 to-blue-800"
+  },
+  {
+    "name": "ශනිදා වාසනාව",
+    "type": "shanida",
+    "board": "DLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
     ],
     "bgGradient": "from-purple-900 to-indigo-900"
+  },
+  {
+    "name": "ලග්න වාසනාව",
+    "type": "lagna-wasanawa",
+    "board": "DLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-orange-900 to-red-800"
+  },
+  {
+    "name": "කෝටිපති කප්රුක",
+    "type": "kotipathi-kapruka",
+    "board": "DLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-green-900 to-emerald-800"
+  },
+  {
+    "name": "ජයෝදා",
+    "type": "jayoda",
+    "board": "DLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-fuchsia-900 to-pink-900"
+  },
+  {
+    "name": "සංවර්ධන වාසනාව",
+    "type": "ada-kotipathi",
+    "board": "DLB",
+    "drawNo": "3041",
+    "date": "2026-08-04",
+    "letter": "A",
+    "numbers": [
+      "12",
+      "25",
+      "38",
+      "44"
+    ],
+    "bgGradient": "from-indigo-900 to-blue-900"
   }
 ]
