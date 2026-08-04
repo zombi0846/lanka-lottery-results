@@ -2,9 +2,8 @@ name: Auto Update Lottery Results
 
 on:
   schedule:
-    # ශ්‍රී ලංකාවේ වේලාවෙන් රාත්‍රී 11.00 ට (UTC 17:30) ස්වයංක්‍රීයව run වේ
     - cron: '30 17 * * *'
-  workflow_dispatch: # Manual run කිරීමට
+  workflow_dispatch:
 
 jobs:
   update-results:
@@ -19,10 +18,11 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
+    - name: Install dependencies & Playwright Browser
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4
+        pip install playwright beautifulsoup4
+        playwright install chromium
 
     - name: Run Scraper
       run: python scraper.py
